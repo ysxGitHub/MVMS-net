@@ -31,6 +31,10 @@ Since MiniRocket's training strategy is slightly different from the others, to s
 
 ## Stage 2: Knowledge Distillation
 
+The multi-view network trained in the first stage is used to train the single-view network, run
+
+> python main_distillation.py
+
 # Dataset
 
 PTB-XL dataset can be downloaded from [PTB-XL, a large publicly available electrocardiography dataset v1.0.1 (physionet.org)](https://www.physionet.org/content/ptb-xl/1.0.1/).
