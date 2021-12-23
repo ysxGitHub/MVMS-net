@@ -68,7 +68,7 @@ class InceptionTime(nn.Module):
         output2 = self.BaseBlock6(output2)
         output2 = self.relu(output2 + shortcut2)
 
-        output = self.Avgpool(output2 + shortcut2)
+        output = self.Avgpool(output2)
         output = output.view(output.size(0), -1)
         output = self.fc(output)
         return output
