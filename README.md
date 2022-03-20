@@ -1,6 +1,6 @@
 # A Multi-View Multi-Scale Neural Network for Multi-Label ECG Classification
 
-This is the code for the paper "Integrating Knowledge Distillation With Multi-View Neural Network for Multi-Label ECG Classification"
+This is the code for the paper "A Multi-View Multi-Scale Neural Network for Multi-Label ECG Classification"
 
 # Dependency
 
