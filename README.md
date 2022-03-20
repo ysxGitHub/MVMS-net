@@ -49,7 +49,7 @@ If you find this idea useful in your research, please consider citing:
 
 ```
 @article{
-  title={Integrating Knowledge Distillation With Multi-View Neural Network for Multi-Label ECG Classification},
+  title={A Multi-View Multi-Scale Neural Network for Multi-Label ECG Classification},
   author={Shunxiang Yang, Cheng Lian, Zhigang Zeng, Bingrong Xu, Yixin Su},
   journal={},
   year={2021}
