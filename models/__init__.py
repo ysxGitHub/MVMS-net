@@ -12,6 +12,8 @@ from .fcn_wang import fcn_wang
 from .bi_lstm import lstm, lstm_bidir
 from .vit import vit
 from .mobilenet_v3 import mobilenetv3_small, mobilenetv3_large
+from .dccacb import dccacb
+from .ati_cnn import ATI_CNN
 
 
 
