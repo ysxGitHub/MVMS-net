@@ -25,7 +25,7 @@ def setup_seed(seed):
     torch.backends.cudnn.deterministic = True
 
 
-def save_checkpoint(best_acc, model, optimizer, epoch):
+def save_checkpoint(best_auc, model, optimizer, epoch):
     print('Model Saving...')
     if config.device_num > 1:
         model_state_dict = model.module.state_dict()
@@ -36,7 +36,7 @@ def save_checkpoint(best_acc, model, optimizer, epoch):
         'model_state_dict': model_state_dict,
         'global_epoch': epoch,
         'optimizer_state_dict': optimizer.state_dict(),
-        'best_acc': best_acc,
+        'best_auc': best_auc,
     }, os.path.join('checkpoints', config.model_name + '_' + config.experiment + '_checkpoint_best.pth'))
 
 
